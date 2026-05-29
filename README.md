@@ -96,7 +96,7 @@ LIMIT 1;
 
 ## 📸 Dashboard Preview
 
-(Dashboard_Screenshot.png)
+(HR Analytics Dashboard.png)
 
 ---
 

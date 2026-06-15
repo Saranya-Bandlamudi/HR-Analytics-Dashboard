@@ -34,8 +34,8 @@ This dashboard helps HR teams make data-driven decisions to improve employee ret
 ---
 
 ## 📸 Dashboard Preview
+<img width="1321" height="743" alt="image" src="https://github.com/user-attachments/assets/fa1db5d4-b8ed-49ee-a0c7-213ba4ec5b8e" />
 
-![HR Analytics Dashboard](hr_analytics_dashboard.png)
 
 ---
 

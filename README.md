@@ -95,8 +95,8 @@ LIMIT 1;
 ---
 
 ## 📸 Dashboard Preview
+<img width="1321" height="743" alt="image" src="https://github.com/user-attachments/assets/52286832-e75c-4f72-9a1a-d6fa3ac822a8" />
 
-(HR Analytics Dashboard.png)
 
 ---
 

@@ -1,109 +1,153 @@
 # 👩‍💼 HR Analytics Dashboard
 
-## 📌 Overview
-Designed and developed an interactive HR Analytics Dashboard using Power BI, SQL, and MySQL to analyze employee attrition, workforce demographics, salary trends, job satisfaction, and department performance. The dashboard enables data-driven HR decision-making through KPI reporting and visual analytics.
+---
+
+## 🎯 Project Overview
+
+The HR Analytics Dashboard provides insights into employee workforce metrics, attrition trends, salary distribution, employee satisfaction, and departmental performance.
+
+This dashboard helps HR teams make data-driven decisions to improve employee retention, workforce planning, and organizational effectiveness.
 
 ---
 
-## 🎯 Business Objective
-The objective of this project is to help HR teams monitor workforce performance, identify attrition patterns, understand employee satisfaction levels, and support strategic decision-making through actionable insights.
+## 🛠 Tools & Technologies
 
----
-
-## ✨ Key Dashboard Features
-✔ Employee Workforce Overview  
-✔ Total Employees KPI  
-✔ Attrition Count & Attrition Rate Analysis  
-✔ Average Salary Analysis  
-✔ Average Job Satisfaction Score  
-✔ Department-wise Attrition Analysis  
-✔ Gender Distribution Analysis  
-✔ Salary by Job Role Visualization  
-✔ Experience vs Satisfaction Analysis  
-✔ Interactive Filtering & Reporting
-
----
-
-## 🛠️ Tools & Technologies
-- Power BI
-- MySQL
 - SQL
-- DAX
+- MySQL
+- Power BI
 - Excel
 - Data Visualization
-- KPI Reporting
+- Business Intelligence
 
 ---
 
-## 📊 Key Insights Generated
-- Identified employee attrition trends across departments
-- Analyzed workforce gender distribution
-- Evaluated salary variations by job role
-- Measured employee satisfaction levels
-- Monitored key HR performance metrics
-- Generated actionable HR business insights
+## 📊 Key Performance Indicators
 
----
-
-## 💡 SQL Analysis Performed
-```sql
-SELECT COUNT(*) AS Total_Employees FROM HR_Data;
-
-SELECT COUNT(*) AS Attrition_Count
-FROM HR_Data
-WHERE Attrition = 'Yes';
-
-SELECT AVG(Salary) AS Average_Salary
-FROM HR_Data;
-
-SELECT Department, COUNT(*) AS Employee_Count
-FROM HR_Data
-GROUP BY Department;
-
-SELECT Gender, COUNT(*) AS Employee_Count
-FROM HR_Data
-GROUP BY Gender;
-
-SELECT Name, Salary
-FROM HR_Data
-ORDER BY Salary DESC
-LIMIT 1;
-```
-
----
-
-## 🚀 Skills Demonstrated
-- HR Analytics
-- SQL Querying
-- MySQL Database Management
-- KPI Reporting
-- Dashboard Development
-- Data Visualization
-- DAX Measures
-- Business Intelligence Reporting
-- Data Storytelling
-
----
-
-## 📂 Repository Contents
-📁 HR_Analytics_Dashboard.pbix  
-📁 HR_Dataset.xlsx  
-📁 HR_Analytics_SQL.sql  
-📁 Dashboard_Screenshot.png  
-📁 README.md
+| KPI | Value |
+|------|------|
+| Total Employees | 10 |
+| Attrition Count | 4 |
+| Attrition Rate | 40.00% |
+| Average Salary | ₹52.20K |
+| Average Satisfaction Score | 3.90 / 5 |
 
 ---
 
 ## 📸 Dashboard Preview
-<img width="1321" height="743" alt="image" src="https://github.com/user-attachments/assets/52286832-e75c-4f72-9a1a-d6fa3ac822a8" />
 
-
----
-
-## 📈 Project Outcome
-Successfully developed an end-to-end HR Analytics solution integrating SQL-based analysis with Power BI dashboarding to provide meaningful workforce insights and support data-driven HR decisions.
+![HR Analytics Dashboard](hr_analytics_dashboard.png)
 
 ---
 
-## ✅ Project Status
-Completed | Portfolio Ready | Resume Project | LinkedIn Featured Project
+## 📈 Dashboard Features
+
+✅ Employee Workforce Overview
+
+✅ Attrition Analysis
+
+✅ Department-Wise Attrition Tracking
+
+✅ Gender Distribution Analysis
+
+✅ Salary Analysis by Job Role
+
+✅ Employee Satisfaction Monitoring
+
+✅ Experience vs Satisfaction Analysis
+
+---
+
+## 🔍 Business Insights
+
+### Employee Attrition Analysis
+- Overall attrition rate is 40%.
+- Sales department shows the highest employee attrition.
+- Finance and IT departments also contribute to workforce turnover.
+
+### Workforce Diversity
+- Gender distribution is balanced with 50% male and 50% female employees.
+- Indicates equal workforce representation.
+
+### Salary Analysis
+- Accountants receive the highest average salary.
+- HR Managers receive comparatively lower average salaries.
+- Salary differences highlight role-based compensation structures.
+
+### Employee Satisfaction
+- Average employee satisfaction score is 3.9 out of 5.
+- Employees with 5–6 years of experience show the highest satisfaction levels.
+
+---
+
+## 💡 HR Recommendations
+
+### Employee Retention
+- Conduct exit interviews to identify reasons for attrition.
+- Strengthen employee engagement programs.
+
+### Workforce Planning
+- Focus retention strategies on high-attrition departments.
+- Improve career growth opportunities.
+
+### Employee Satisfaction
+- Introduce recognition and reward programs.
+- Enhance work-life balance initiatives.
+
+### Compensation Review
+- Periodically review salary structures.
+- Ensure competitive compensation across job roles.
+
+---
+
+## 🚀 Business Impact
+
+This dashboard enables HR teams to:
+
+- Monitor workforce performance
+- Reduce employee attrition
+- Improve employee satisfaction
+- Support strategic workforce planning
+- Enhance organizational productivity
+
+---
+
+## ⭐ Project Outcome
+
+Successfully designed and developed an HR Analytics Dashboard that transforms employee data into actionable HR insights through interactive visualizations and KPI monitoring.
+
+---
+
+## 📂 Project Highlights
+
+✔ Workforce Analytics
+
+✔ Employee Attrition Analysis
+
+✔ Salary Insights
+
+✔ Employee Satisfaction Monitoring
+
+✔ Department Performance Analysis
+
+✔ Interactive Power BI Dashboard
+
+---
+
+## ### 👩‍💻 Created By
+**Saranya Bandlamudi**
+
+📊 Aspiring Data Analyst
+
+💻 Power BI | SQL | Python | Excel | MySQL
+
+📍 Gudivada, Andhra Pradesh, India
+
+📧 Email: saranyabandlamudi7@gmail.com
+
+🔗 LinkedIn: https://www.linkedin.com/in/saranya-bandlamudi?utm_source=share_via&utm_content=profile&utm_medium=member_android
+
+🔗 GitHub: https://github.com/Saranya-Bandlamudi
+
+---
+
+### 🌟 Turning Employee Data into Workforce Intelligence

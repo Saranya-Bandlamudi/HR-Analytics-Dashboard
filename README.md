@@ -136,7 +136,7 @@ Successfully designed and developed an HR Analytics Dashboard that transforms em
 ## ### 👩‍💻 Created By
 **Saranya Bandlamudi**
 
-📊 Aspiring Data Analyst
+📊 Data Analyst
 
 💻 Power BI | SQL | Python | Excel | MySQL
 
